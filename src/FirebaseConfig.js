@@ -1,13 +1,13 @@
 import firebase from "firebase";
 
 const config = {
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_PROJECT_ID,
-  storageBucket: process.env.EACT_APP_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_APP_ID,
-  measurementId: process.env.REACT_APP_MEASUREMENT_ID,
+  apiKey: "AIzaSyCi0WWkmNgUWU5UcA10lbkLm9KGJlNjblA",
+  authDomain: "fir-recipes-13aa0.firebaseapp.com",
+  projectId: "fir-recipes-13aa0",
+  storageBucket: "fir-recipes-13aa0.appspot.com",
+  messagingSenderId: "77822117208",
+  appId: "1:77822117208:web:9ad341b64af10e661c112d",
+  measurementId: "G-DS3X512VME"
 };
 
 if (!firebase.apps.length) {
